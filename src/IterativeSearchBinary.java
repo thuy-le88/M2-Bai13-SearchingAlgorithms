@@ -1,6 +1,4 @@
-package tim.kiem.nhi.phan.ko.de.quy;
-
-public class SearchBinary {
+public class IterativeSearchBinary {
     int searchBinary(int[] list, int x) {
         int l=0;
         int r=list.length-1;
@@ -19,7 +17,7 @@ public class SearchBinary {
     }
 
     public static void main(String[] args) {
-        SearchBinary search=new SearchBinary();
+        IterativeSearchBinary search=new IterativeSearchBinary();
         int[] numbers={2,5,7,11,12,18,50};
         int searchNumber=12;
         int result=search.searchBinary(numbers,searchNumber);
